@@ -1,0 +1,18 @@
+body{
+    background-image: url("../static/img/achive.jpeg");
+}
+
+h1{
+    color: lightgray;
+}
+
+img{
+    background-color: darkgray;
+    padding: 7px;
+}
+
+.diploms{
+    background-color: dimgray;
+    width: 470px;
+    border-radius: 15px;
+}

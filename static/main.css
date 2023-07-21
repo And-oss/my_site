@@ -1,0 +1,31 @@
+header{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 350px;
+    position: relative;
+    border-radius: 10px;
+    border-color: dimgray;
+    background-color: skyblue;
+}
+#preview{
+    margin-top: 35px;
+}
+
+body{
+    background-image: url("../static/img/sky.jpg");
+}
+
+.links{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+button{
+    width: 75px;
+    height: 47px;
+    margin-top: 7px;
+    border-radius: 7px;
+    background-color: skyblue;
+}

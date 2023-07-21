@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>{{.title}}</title>
+    <link rel="stylesheet" type="text/css" href="../static/iam.css">
+</head>
+<body>
+      <div class="me" style="text-align: center;">
+          <img src="../static/img/IMG_1309.jpg" width="230" height="256"/>
+          <h2 id="name_lastname">SHPAK ANDREY</h2>
+          <h3 id="profile">backend developer</h3>
+          <br>
+      </div>
+
+        <div class="skills">
+            <h4>MY SKILLS: </h4>
+            {{range .mySkill}}
+                <br>
+                 - <card id="skill">{{.Types}} | {{.Skill}}: {{.About}}</card>
+                <br>
+            {{end}}
+        </div>
+
+    <footer>
+        <h5>Producted by: SHPAK.A AND MY SISTER(DESIGN)</h5>
+        <a href="github">My github</a>
+    </footer>
+</body>
+</html>
